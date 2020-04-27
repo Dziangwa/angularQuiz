@@ -19,10 +19,10 @@
       <div *ngIf="!category">
         <h1 style="text-align: center;">Wybierz kategorie</h1>
       </div>
-      <h1 style="text-align: center;">{{category}}</h1>
       <div *ngIf="category">
-        <div *ngFor="let question of questions | categoryFilter:category;index as i;">
-          {{i+1}}. {{question.question}}<br><br>
+        <h1 style="text-align: center;">{{category}}</h1>
+        <div *ngFor="let question of actualQuestions;index as i;">
+          <div class="questTitle">{{i+1}}. {{question.question}}</div><br>
             <mat-radio-group id="{{question.id}}" [(ngModel)]="chosenAns[i]">
               <mat-radio-button id="rad{{question.id}}0" value="0">{{question.answers[0]}}</mat-radio-button><br>
               <mat-radio-button id="rad{{question.id}}1" value="1">{{question.answers[1]}}</mat-radio-button><br>
@@ -30,7 +30,7 @@
               <mat-radio-button id="rad{{question.id}}3" value="3">{{question.answers[3]}}</mat-radio-button><br><br>
             </mat-radio-group>
         </div>
-        <button (click)="onSubmit()">Sprawdź odpowiedzi kekw</button>
+        <button class="resultBut" (click)="getResult()">Sprawdź wynik</button>
       </div>
     </div>
   </div>
