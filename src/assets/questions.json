@@ -25,5 +25,140 @@
             "8 lat", "16 lat", "6 lat", "4 lata"
         ],
         "answer": "0"
+    },
+    {
+        "id": 3,
+        "category": "Fizyka",
+        "question": "Oblicz prędkość samochodu, który poruszając się ruchem jednostajnym, w ciągu 2 godzin przebył drogę 140 km.",
+        "answers": [
+            "40km/h", "20km/h", "70km/h", "60km/h"
+        ],
+        "answer": "2"
+    },
+    {
+        "id": 4,
+        "category": "Fizyka",
+        "question": "Jaką drogę przebył samochód w ciągu 15 minut, jeżeli porusza się ze stałą prędkością 60km/h",
+        "answers": [
+            "10km", "15km", "20km", "25km"
+        ],
+        "answer": "1"
+    },
+    {
+        "id": 5,
+        "category": "Fizyka",
+        "question": "Jakie przyspieszenie ma gepard, jeśli w ciągu 2 sekund zwiększa prędkość o 70km/h",
+        "answers": [
+            "25km/h^2", "45km/h^2", "30km/h^2", "35km/h^2"
+        ],
+        "answer": "3"
+    },
+    {
+        "id": 6,
+        "category": "Geografia",
+        "question": "Umowny geometryczny środek Polski znajduje się w województwie łódzkim, w miejscowości:",
+        "answers": [
+            "Piątek", "Łask", "Żychlin", "Wieluń"
+        ],
+        "answer": "0"
+    },
+    {
+        "id": 7,
+        "category": "Geografia",
+        "question": "Ruiny kościoła, który wskutek działania fal morskich częściowo zsunął się z morskiego brzegu możemy oglądać w:",
+        "answers": [
+            "Dębkach", "Pogorzelicy", "Trzęsaczu", "Sieradzu"
+        ],
+        "answer": "0"
+    },
+    {
+        "id": 8,
+        "category": "Geografia",
+        "question": "W Żelazowej Woli urodził się:",
+        "answers": [
+            "Cyprian Kamil Norwid", "Juliusz Słowacki", "Fryderyk Chopin", "Adam Mickiewicz"
+        ],
+        "answer": "2"
+    },
+    {
+        "id": 9,
+        "category": "Angielski",
+        "question": "Co oznacza słowo \"property\"?",
+        "answers": [
+            "Kalosze", "Bieda", "Krajobraz", "Własność"
+        ],
+        "answer": "3"
+    },
+    {
+        "id": 10,
+        "category": "Angielski",
+        "question": "Co oznacza słowo \"synonymous\"?",
+        "answers": [
+            "Równoznaczny", "Synchroniczny", "Anonimowy", "Pleśń"
+        ],
+        "answer": "0"
+    },
+    {
+        "id": 11,
+        "category": "Angielski",
+        "question": "Co oznacza słowo \"startled\"?",
+        "answers": [
+            "Zniesmaczony", "Zająkać się", "Zaskoczony", "Gwiezdny"
+        ],
+        "answer": "2"
+    },
+    {
+        "id": 12,
+        "category": "Polski",
+        "question": "Za co miała zginąć Antygona?",
+        "answers": [
+            "Morderstwo", "Złamanie obowiązującego prawa", "Kłamstwa", "Oszczerstwa"
+        ],
+        "answer": "1"
+    },
+    {
+        "id": 13,
+        "category": "Polski",
+        "question": "\"Hymn do miłości ojczyzny\" napisał:",
+        "answers": [
+            "Adam Mickiewicz", "Jan kochanowski", "Cyprian Kamil Norwid", "Ignacy Krasicki"
+        ],
+        "answer": "3"
+    },
+    {
+        "id": 14,
+        "category": "Polski",
+        "question": "Na której słynnej górze ma miejsce monolog Kordiana?",
+        "answers": [
+            "Mont Blanc", "Monte Rosa", "Mount Everest", "Makalu"
+        ],
+        "answer": "0"
+    },
+    {
+        "id": 15,
+        "category": "Chemia",
+        "question": "Substancja mająca pH równe 9 jest:",
+        "answers": [
+            "Zasadą", "Kwasem", "Izotopem", "Mieszaniną"
+        ],
+        "answer": "0"
+    },
+    {
+        "id": 16,
+        "category": "Chemia",
+        "question": "Podczas lutowania cyna ulega:",
+        "answers": [
+            "Rozpuszczaniu", "Topnieniu", "Polimeryzacji", "Sublimacji"
+        ],
+        "answer": "1"
+    },
+    {
+        "id": 17,
+        "category": "Chemia",
+        "question": "P to symbol chemiczny:",
+        "answers": [
+            "Chloru", "Potasu", "Fosforu", "Polonu"
+        ],
+        "answer": "2"
     }
 ]
