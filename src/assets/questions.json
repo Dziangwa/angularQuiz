@@ -1,0 +1,29 @@
+[
+    {
+        "id": 0,
+        "category": "Matematyka",
+        "question": "Liczba log24 jest równa",
+        "answers": [
+            "2log2 + log20", "log6 + 2log2", "2log6 - log12", "log30 - log6"
+        ],
+        "answer": "1"
+    },
+    {
+        "id": 1,
+        "category": "Matematyka",
+        "question": "Do sklepu dostarczono 156kg soli, co stanowi 12/17 całej dostawy. Ile soli trzeba jeszcze dowieźć do sklepu?",
+        "answers": [
+            "63kg", "65kg", "67kg", "69kg"
+        ],
+        "answer": "1"
+    },
+    {
+        "id": 2,
+        "category": "Matematyka",
+        "question": "Dawid jest 5 razy młodszy od mamy. Suma lat Dawida i mamy wynosi 48 lat. Ile lat ma Dawid?",
+        "answers": [
+            "8 lat", "16 lat", "6 lat", "4 lata"
+        ],
+        "answer": "0"
+    }
+]
