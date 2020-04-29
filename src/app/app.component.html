@@ -9,7 +9,9 @@
   <div class="header" role="banner">
     <div class="navContainer">
       <div class="navbar" *ngFor="let category of categories">
-        <button class="catButton" (click)="setCategory(category)">{{category}}</button>
+        <button class="catButton" (click)="setCategory(category)">
+          {{category}}
+        </button>
       </div>
     </div>
   </div>
@@ -24,13 +26,23 @@
         <div *ngFor="let question of actualQuestions;index as i;">
           <div class="questTitle">{{i+1}}. {{question.question}}</div><br>
             <mat-radio-group id="{{question.id}}" [(ngModel)]="chosenAns[i]">
-              <mat-radio-button id="rad{{question.id}}0" value="0">{{question.answers[0]}}</mat-radio-button><br>
-              <mat-radio-button id="rad{{question.id}}1" value="1">{{question.answers[1]}}</mat-radio-button><br>
-              <mat-radio-button id="rad{{question.id}}2" value="2">{{question.answers[2]}}</mat-radio-button><br>
-              <mat-radio-button id="rad{{question.id}}3" value="3">{{question.answers[3]}}</mat-radio-button><br><br>
+              <mat-radio-button id="rad{{question.id}}0" value="0">
+                {{question.answers[0]}}
+              </mat-radio-button><br>
+              <mat-radio-button id="rad{{question.id}}1" value="1">
+                {{question.answers[1]}}
+              </mat-radio-button><br>
+              <mat-radio-button id="rad{{question.id}}2" value="2">
+                {{question.answers[2]}}
+              </mat-radio-button><br>
+              <mat-radio-button id="rad{{question.id}}3" value="3">
+                {{question.answers[3]}}
+              </mat-radio-button><br><br>
             </mat-radio-group>
         </div>
-        <button class="resultBut" (click)="getResult()">Sprawdź wynik</button>
+        <button class="resultBut" (click)="getResult()">
+          Sprawdź wynik
+        </button>
       </div>
     </div>
   </div>

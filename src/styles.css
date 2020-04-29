@@ -3,21 +3,15 @@
 
 body, html {
     margin: 0;
-        padding: 0;
-        border: 0;
-        outline: 0;
-        font-size: 100%;
-        vertical-align: baseline;
-        background: transparent;
-}
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-
-html {
-    background-color: #181a1b !important;
-}
-html, body, input, textarea, select, button {
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    height: 100%;
     background-color: #181a1b;
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
 }
 
 ::-webkit-scrollbar {

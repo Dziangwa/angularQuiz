@@ -5,13 +5,11 @@ import { MatRadioModule } from '@angular/material/radio';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CategoryPipe } from './category.pipe';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CategoryPipe
   ],
   imports: [
     BrowserModule,

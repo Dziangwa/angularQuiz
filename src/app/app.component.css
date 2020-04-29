@@ -32,11 +32,12 @@
     width: 400px;
     height: auto;
     margin: 20px auto;
+    padding-top: 15px;
     text-align: left;
 }
 
 .navContainer {
-    background-color: rgb(71, 78, 72);;
+    background-color: rgb(71, 78, 72);
     height: 100%;
     text-align: center;
 }
